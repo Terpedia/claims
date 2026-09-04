@@ -59,6 +59,17 @@ The prioritized experimental plan is in
 falsifiable tests, controls, endpoints, and what positive or null results would
 actually mean.
 
+## Terpene bioassay review
+
+The GCP-backed claim register is in
+[`data/bioassay-claims-and-hypotheses.csv`](data/bioassay-claims-and-hypotheses.csv),
+and the assay validation queue is in
+[`data/bioassay-hypotheses-to-validate.csv`](data/bioassay-hypotheses-to-validate.csv).
+The source snapshot and read-only query are maintained in the sibling
+[`bioassay/`](../bioassay/) project. The PubChem BioAssay lookup is a coverage
+resource: a nonzero assay count does not establish a positive terpene result,
+and a zero count does not establish inactivity.
+
 ## First run
 
 ```sh
