@@ -8,7 +8,7 @@
 
 **Affiliations:** Terpedia, LLC
 
-**Corresponding author:** [NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
+**Corresponding author:** Daniel C. McShan — [POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
 
 **ORCID:** [Daniel C. McShan](https://orcid.org/0000-0003-3880-1711)
 
@@ -26,7 +26,7 @@ as editable, machine-readable CSV files with legends in the submission package.
 
 **Affiliation:** Terpedia, LLC
 
-**Corresponding author contact:** [NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
+**Corresponding author contact:** Daniel C. McShan — [POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
 
 **Text pages:** 11
 
