@@ -17,9 +17,10 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 
 - [x] Replace author and affiliation placeholders.
 - [x] Add corresponding-author telephone, postal address, and institutional email.
-- [ ] Add Susan Trapp’s affiliation, email, postal address, and ORCID.
+- [x] Confirm Susan Trapp’s affiliation as Terpedia, LLC.
+- [ ] Add Susan Trapp’s email, postal address, and ORCID [TO CONFIRM].
 - [x] Complete funding statement.
-- [ ] Confirm Susan Trapp’s competing interests; Daniel’s disclosure is complete.
+- [ ] Confirm Susan Trapp’s competing interests [TO CONFIRM]; Daniel’s disclosure is complete.
 - [x] Add data availability statement.
 - [x] Add ethics and patient-consent statements as not applicable.
 - [x] Add permissions and clinical-trial statements as not applicable.
