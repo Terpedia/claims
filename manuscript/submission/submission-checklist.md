@@ -23,7 +23,8 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [x] Add data availability statement.
 - [x] Add ethics and patient-consent statements as not applicable.
 - [x] Add permissions and clinical-trial statements as not applicable.
-- [ ] Confirm CRediT roles for both authors.
+- [ ] Confirm CRediT roles for both authors; Susan Trapp is limited to
+  Writing—review and editing unless corrected by the authors.
 - [x] Add acknowledgements; author-specific confirmations remain flagged as [TO CONFIRM].
 
 ## Editorial package

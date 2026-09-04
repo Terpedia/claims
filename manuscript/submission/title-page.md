@@ -75,8 +75,8 @@ used as an analyzed data source.
 
 **Author contributions:** Daniel C. McShan: Conceptualization, data curation,
 formal analysis, investigation, methodology, software, visualization, writing—
-original draft, and writing—review and editing. Susan Trapp: Conceptualization,
-investigation, and writing—review and editing [TO CONFIRM BY BOTH AUTHORS].
+original draft, and writing—review and editing. Susan Trapp: writing—review and
+editing [TO CONFIRM BY BOTH AUTHORS].
 
 **Acknowledgements:** The authors thank the Terpedia project contributors and
 maintainers of the source databases and public literature services used in this
