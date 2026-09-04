@@ -16,7 +16,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 ## Title page and declarations
 
 - [x] Replace author and affiliation placeholders.
-- [ ] Add corresponding-author telephone; postal address and institutional email added.
+- [x] Add corresponding-author telephone, postal address, and institutional email.
 - [ ] Add Susan Trapp’s affiliation, email, postal address, and ORCID.
 - [x] Complete funding statement.
 - [ ] Confirm Susan Trapp’s competing interests; Daniel’s disclosure is complete.

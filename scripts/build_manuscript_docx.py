@@ -134,7 +134,7 @@ def build() -> None:
     for value in (
         "Perspective article | evidence-based pharmacological perspective",
         "Daniel C. McShan and Susan Trapp",
-        "Daniel C. McShan: Terpedia, LLC | Susan Trapp: [AFFILIATION TO CONFIRM]",
+        "Daniel C. McShan and Susan Trapp: Terpedia, LLC",
         "ORCID: Daniel C. McShan 0000-0003-3880-1711 | Susan Trapp [TO CONFIRM]",
         "Running title: Terpene receptor hypotheses",
         "Text pages: 11 | Tables: 1 | Figures: 0 | References: 13",

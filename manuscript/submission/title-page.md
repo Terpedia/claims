@@ -6,9 +6,9 @@
 
 **Authors:** Daniel C. McShan and Susan Trapp
 
-**Affiliations:** Daniel C. McShan, Terpedia, LLC; Susan Trapp, [AFFILIATION TO CONFIRM]
+**Affiliations:** Daniel C. McShan and Susan Trapp, Terpedia, LLC
 
-**Corresponding author:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone [TO CONFIRM]; dan@terpedia.com
+**Corresponding author:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone 720-635-9842; dan@terpedia.com
 
 **ORCID:** [Daniel C. McShan](https://orcid.org/0000-0003-3880-1711); Susan Trapp, [ORCID TO CONFIRM]
 
@@ -26,7 +26,7 @@ as editable, machine-readable CSV files with legends in the submission package.
 
 **Affiliation:** Terpedia, LLC
 
-**Corresponding author contact:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone [TO CONFIRM]; dan@terpedia.com
+**Corresponding author contact:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone 720-635-9842; dan@terpedia.com
 
 **Text pages:** 11
 
