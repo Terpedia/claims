@@ -36,7 +36,6 @@ preferred.
 
 Sincerely,
 
-[CORRESPONDING AUTHOR]
-[INSTITUTION]
-[EMAIL]
-
+Daniel C. McShan
+Terpedia, LLC
+[INSTITUTIONAL EMAIL]

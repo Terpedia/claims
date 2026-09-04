@@ -12,6 +12,6 @@ checked again immediately before upload.
 
 Before submission, complete every unchecked item in
 [`submission-checklist.md`](submission-checklist.md), especially author
-identity, affiliation, ORCID, funding, conflict-of-interest, CRediT, repository
-URL, and final all-author approval.
-
+identity, affiliation, contact details, funding, conflict-of-interest, CRediT,
+repository URL, and final all-author approval. Reusable supplied author
+metadata is recorded in [`../../author-profile.md`](../../author-profile.md).

@@ -4,17 +4,17 @@
 
 **Article type:** Perspective
 
-**Authors:** [AUTHOR NAME 1], [AUTHOR NAME 2]
+**Authors:** Daniel C. McShan
 
-**Affiliations:** [PRIMARY LABORATORY / INSTITUTION]
+**Affiliations:** Terpedia, LLC
 
 **Corresponding author:** [NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
 
-**ORCID:** [CORRESPONDING AUTHOR ORCID]
+**ORCID:** [Daniel C. McShan](https://orcid.org/0000-0003-3880-1711)
 
 **Running title:** Terpene receptor hypotheses
 
-**Word count:** Approximately 2,575 words including headings and declarations;
+**Word count:** Approximately 2,601 words including headings and declarations;
 verify journal-specific counting at upload.
 
 **Tables and supporting data:** One machine-readable claims–terpene matrix and
@@ -22,9 +22,11 @@ one prioritized hypotheses-to-test table are supplied as supporting data.
 
 ## Required statements
 
-**Funding:** [STATE FUNDING OR “No specific funding was received for this work.”]
+**Funding:** No specific funding was received for this work.
 
-**Conflict of interest:** [AUTHOR-SPECIFIC DISCLOSURE]
+**Conflict of interest:** Daniel C. McShan is affiliated with Terpedia, LLC,
+which maintains the source database analyzed in this perspective. The author
+reports no other conflicts of interest.
 
 **Data availability:** The source claims snapshot, derived hypothesis register,
 claims–terpene matrix, receptor hypothesis map, and hypotheses-to-test table
@@ -42,6 +44,6 @@ used as an analyzed data source.
 
 **Clinical trial registration:** Not applicable.
 
-**Author contributions:** To be completed using the CRediT taxonomy during
-submission.
-
+**Author contributions:** Daniel C. McShan: Conceptualization, data curation,
+formal analysis, investigation, methodology, software, visualization, writing—
+original draft, and writing—review and editing.

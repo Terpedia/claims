@@ -13,14 +13,14 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 
 ## Title page and declarations
 
-- [ ] Replace author and affiliation placeholders.
-- [ ] Add corresponding-author postal address, telephone, institutional email, and ORCID.
-- [ ] Complete funding statement.
-- [ ] Complete conflict-of-interest disclosure.
+- [x] Replace author and affiliation placeholders.
+- [ ] Add corresponding-author postal address, telephone, and institutional email; ORCID added.
+- [x] Complete funding statement.
+- [x] Complete conflict-of-interest disclosure.
 - [x] Add data availability statement.
 - [x] Add ethics and patient-consent statements as not applicable.
 - [x] Add permissions and clinical-trial statements as not applicable.
-- [ ] Complete CRediT author contributions.
+- [x] Complete CRediT author contributions.
 
 ## Editorial package
 
