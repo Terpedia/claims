@@ -26,7 +26,11 @@ def main() -> int:
         "## 6. Conclusion", "## 7. Data and code", "## 8. Declarations", "## 9. References",
     ]
     assert all(section in text for section in required_sections)
-    for filename in ("title-page.md", "cover-letter.md", "submission-checklist.md", "terpene-structure-function-claims.docx"):
+    for filename in (
+        "title-page.md", "cover-letter.md", "submission-checklist.md",
+        "supporting-information.md", "upload-manifest.md",
+        "terpene-structure-function-claims.docx",
+    ):
         assert (SUBMISSION / filename).exists(), filename
     for filename in ("claims-terpene-matrix.csv", "receptor-hypothesis-map.csv", "hypotheses-to-test.csv", "hypothesis-register.csv"):
         assert (DATA / filename).exists(), filename
@@ -34,6 +38,18 @@ def main() -> int:
         matrix_rows = list(csv.DictReader(handle))
     assert len(matrix_rows) == 109, f"expected 109 matrix rows, found {len(matrix_rows)}"
     assert all(row.get("effect_support_status") == "unresolved" for row in matrix_rows)
+    assert "Table 1." in main_text and "summarized in Table 1" in main_text
+    assert "Supporting Information Tables S1–S4" in main_text
+    citation_numbers = []
+    for group in re.findall(r"\[([0-9]+(?:\s*,\s*[0-9]+)*)\]", main_text):
+        citation_numbers.extend(int(value) for value in re.split(r"\s*,\s*", group))
+    first_seen = []
+    for number in citation_numbers:
+        if number not in first_seen:
+            first_seen.append(number)
+    assert first_seen == list(range(1, 14)), f"references are not in first-appearance order: {first_seen}"
+    reference_text = text.split("## 9. References", 1)[1]
+    assert len(re.findall(r"(?m)^\d+\. ", reference_text)) == 13
     print(f"submission structure audit passed: {words} main-text words")
     placeholder_pattern = re.compile(
         r"\[(?:NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
