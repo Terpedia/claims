@@ -26,7 +26,7 @@ not yet provide effect-specific, identity-resolved validation for those rows.
 The resulting matrix is therefore a prioritization tool for structure–function
 research, not an efficacy catalogue.
 
-## Introduction
+## 1. Introduction
 
 Terpenes are commonly associated with broad labels such as “anti-inflammatory,”
 “sedative,” “analgesic,” or “neuroprotective.” Such labels can be useful as
@@ -42,9 +42,9 @@ for testing them? The distinction matters because target evidence is not
 equivalent to efficacy evidence, and a null join in a database is not a
 biological negative.
 
-## Materials and methods
+## 2. Materials and methods
 
-### Promotional hypothesis source
+### 2.1 Promotional hypothesis source
 
 We used the Terpedia Google Sheet snapshot dated 26 June 2026. Its matrix
 contains effect labels in rows, terpene labels in columns, source counts, and
@@ -54,7 +54,7 @@ unique hypothesis identified by a stable local ID. The resulting register has
 17 named compounds, but l-limonene has no marked cells and therefore contributes
 no hypothesis row.
 
-### Identity and evidence policy
+### 2.2 Identity and evidence policy
 
 α-pinene, β-pinene, d-limonene, and l-limonene were retained as separate
 labels. A receptor association was accepted only as a literature lead when the
@@ -71,7 +71,7 @@ establish efficacy, causality, dose–response, or human relevance.” Missing
 structure joins and missing target records were recorded as unresolved rather
 than inactive.
 
-### Terpedia crosswalk
+### 2.3 Terpedia crosswalk
 
 The local Terpedia evidence layer was checked against the receptor interactome
 and available protein/structure projections. A local receptor-evidence link
@@ -81,7 +81,7 @@ literature pass was targeted and hypothesis-generating, not a registered
 systematic review, so absence from this map is not evidence of absence from
 PubMed or biology.
 
-### Support definitions
+### 2.4 Support definitions
 
 We reserve “supported effect” for an identity-resolved study that measures the
 specific effect, identifies an appropriate biological context, and provides an
@@ -106,9 +106,9 @@ The current manuscript reports E3/E4 compound-level evidence separately from
 effect-level support. No row meets the E4 definition for the promotional effect
 itself.
 
-## Results
+## 3. Results
 
-### Overall support profile
+### 3.1 Overall support profile
 
 Of the 109 hypothesis rows, 59 were attached to compounds with direct receptor
 pharmacology somewhere in the literature map, and 14 rows had indirect
@@ -118,7 +118,7 @@ All 109 retained an `effect_support_status` of `unresolved`, because the map
 does not yet connect each effect label to an identity-resolved, appropriately
 scoped assay or clinical outcome.
 
-### Stronger receptor-mechanism leads
+### 3.2 Stronger receptor-mechanism leads
 
 β-caryophyllene is the clearest immune and nociceptive lead. It has reported
 binding and functional agonism at CB2, and CB2-dependent analgesic effects have
@@ -148,7 +148,7 @@ pharmacology. Terpineol
 is a weaker CB1/CB2/D2 hypothesis because its current support comes from mouse
 antagonist experiments and docking rather than direct receptor binding.
 
-### Unresolved and misleading target categories
+### 3.3 Unresolved and misleading target categories
 
 Several compounds remain without compound-specific human receptor evidence in
 this first pass, including d-limonene, l-limonene, fenchol, and terpinolene.
@@ -162,7 +162,7 @@ sensory biology but are not evidence for human therapeutic receptor targets.
 Similarly, a docking score or a network-pharmacology edge is a prioritization
 signal, not a demonstrated interaction.
 
-## Discussion
+## 4. Discussion
 
 The matrix shows why “how many claims are supported?” has more than one answer.
 At the receptor-mechanism level, 59 hypothesis rows inherit direct
@@ -269,7 +269,7 @@ A positive result in a recombinant system may establish receptor capability
 without showing that the compound reaches that receptor in vivo. These are not
 inconsistencies; they are different edges in the evidence graph.
 
-### Relevance to pharmacology practice
+### 4.1 Relevance to pharmacology practice
 
 This framework is intended for researchers, curators, and reviewers who must
 decide whether a broad natural-product statement is ready to become a testable
@@ -284,7 +284,7 @@ pharmacology perspective format because it uses existing observations to
 define new, falsifiable target and mechanism hypotheses while identifying the
 experiments required for validation.
 
-## Limitations and next experiments
+## 5. Limitations and next experiments
 
 The promotional source is a secondary matrix with uneven source counts and no
 assay-level definitions. The literature pass is not a systematic review, and
@@ -300,7 +300,7 @@ phenotype evidence; and (5) test the highest-priority compound–receptor pairs
 in identity-resolved assays with concentration–response measurements. The
 prioritized plan below operationalizes those requirements.
 
-### Prioritized test plan
+### 5.1 Prioritized test plan
 
 The machine-readable test plan is in
 [`data/hypotheses-to-test.csv`](../data/hypotheses-to-test.csv). It converts
@@ -322,7 +322,7 @@ A positive receptor result supports only the measured molecular or phenotypic
 endpoint; a null result narrows the hypothesis but does not prove biological
 absence.
 
-## Conclusion
+## 6. Conclusion
 
 Terpedia can support a useful receptor hypothesis map for promotional terpene
 claims, but it cannot yet support the promotional effects as established
@@ -331,7 +331,7 @@ queue: it identifies where direct receptor evidence exists, where literature
 adds a plausible mechanism, and where the correct conclusion remains
 unresolved.
 
-## Data and code
+## 7. Data and code
 
 - [Claims–terpene matrix](../data/claims-terpene-matrix.csv)
 - [Receptor hypothesis map](../data/receptor-hypothesis-map.csv)
@@ -339,14 +339,14 @@ unresolved.
 - [Matrix builder](../scripts/build_claims_terpene_matrix.py)
 - [Prioritized hypotheses-to-test table](../data/hypotheses-to-test.csv)
 
-## Declarations
+## 8. Declarations
 
 This perspective uses a Terpedia-curated promotional snapshot and a targeted
 literature map; it is not a systematic review or a clinical guideline. No
 clinical recommendation is made. Source provenance, identity decisions, and
 evidence boundaries are retained in the linked machine-readable artifacts.
 
-## Selected references
+## 9. References
 
 1. Gertsch J et al. Beta-caryophyllene is a dietary cannabinoid. *Proceedings of the National Academy of Sciences*. 2008;105(26):9099–9104. [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/); doi:10.1073/pnas.0803601105.
 2. Klauke AL et al. The CB2-selective phytocannabinoid β-caryophyllene exerts analgesic effects in mouse models. *European Neuropsychopharmacology*. 2014;24(4):608–620. [PMID 24210682](https://pubmed.ncbi.nlm.nih.gov/24210682/); doi:10.1016/j.euroneuro.2013.10.008.

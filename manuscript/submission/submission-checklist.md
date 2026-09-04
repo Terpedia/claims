@@ -40,3 +40,14 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [x] Prioritized hypotheses include controls, endpoints, and interpretation boundaries.
 - [ ] Complete a systematic literature update if submitting as a full review rather than a perspective.
 
+## Automated verification
+
+Run from the repository root:
+
+```sh
+python3 scripts/verify_submission_package.py
+```
+
+This checks the review-range word count, numbered manuscript sections, and
+presence of the required package files. It intentionally does not approve
+author-specific placeholders.
