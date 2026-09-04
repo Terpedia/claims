@@ -42,6 +42,18 @@ asks whether the compound has any linked receptor evidence, while
 supported by appropriately scoped literature or assay data. This prevents a
 receptor association from being promoted into an efficacy claim.
 
+Build the joined, reviewable matrix:
+
+```sh
+python3 scripts/build_claims_terpene_matrix.py \
+  data/hypothesis-register.csv data/receptor-hypothesis-map.csv \
+  data/claims-terpene-matrix.csv
+```
+
+`data/claims-terpene-matrix.csv` is the main deliverable: one row per
+promotional hypothesis with receptor candidates, evidence tier, PubMed/DOI
+fields, effect-support status, and uncertainty boundary.
+
 ## First run
 
 ```sh
@@ -78,3 +90,8 @@ an identity bridge and carries an explicit evidence boundary into every row.
 - `outputs/claim-receptor-candidates.csv` — evidence-qualified candidate rows.
 - `outputs/claim-receptor-summary.csv` — counts by claim, compound, receptor,
   evidence type, and join status.
+
+The initial literature pass is recorded in
+[`notes/receptor-research-2026-09.md`](notes/receptor-research-2026-09.md) and
+the 17-compound candidate map is in
+[`data/receptor-hypothesis-map.csv`](data/receptor-hypothesis-map.csv).
