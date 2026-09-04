@@ -48,7 +48,7 @@ def borders(cell, color: str = "D9D9D9") -> None:
 
 def inline(paragraph, text: str) -> None:
     """Render the small Markdown subset used by the manuscript."""
-    token = re.compile(r"(\*\*.*?\*\*|\*.*?\*|\[.*?\]\(.*?\))")
+    token = re.compile(r"(\*\*.*?\*\*|\*.*?\*|`.*?`|\[.*?\]\(.*?\))")
     pos = 0
     for match in token.finditer(text):
         if match.start() > pos:
@@ -60,6 +60,8 @@ def inline(paragraph, text: str) -> None:
         elif value.startswith("*"):
             run = paragraph.add_run(value[1:-1])
             run.italic = True
+        elif value.startswith("`"):
+            paragraph.add_run(value[1:-1])
         else:
             label, url = re.match(r"\[(.*?)\]\((.*?)\)", value).groups()
             run = paragraph.add_run(label)
@@ -130,11 +132,14 @@ def build() -> None:
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.add_run("Terpene effect claims: an evidence-bounded receptor hypothesis map")
     for value in (
-        "Perspective manuscript",
+        "Review article | evidence-based pharmacological perspective",
         "Daniel C. McShan",
         "Terpedia, LLC",
         "ORCID: 0000-0003-3880-1711",
         "Running title: Terpene receptor hypotheses",
+        "Text pages: 11 | Tables: 1 | Figures: 0 | References: 13",
+        "Abstract: 153 words | Introduction: 118 words | Discussion: 1,009 words",
+        "Abbreviations: CB1, CB2, D2, E0–E4, GABA-A, nAChR, TRPV1",
     ):
         p = doc.add_paragraph()
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER

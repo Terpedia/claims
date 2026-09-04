@@ -2,7 +2,7 @@
 
 **Working manuscript — 4 September 2026**
 
-**Proposed article type:** Pharmacology Research & Perspectives perspective
+**Proposed article type:** Review article (evidence-based pharmacological perspective)
 
 **Keywords:** terpenes; receptor pharmacology; evidence grading; structure–function
 hypotheses; translational pharmacology; reproducibility; claim auditing
@@ -92,7 +92,9 @@ appear in multiple effect rows and must not be interpreted as independent
 replication.
 
 We used the following non-exclusive evidence ladder when interpreting the
-matrix:
+matrix; the permitted conclusions are summarized in Table 1:
+
+**Table 1. Evidence ladder for compound–target interpretation.**
 
 | Level | Meaning | Permitted conclusion |
 | --- | --- | --- |
@@ -101,6 +103,8 @@ matrix:
 | E2 | Animal, tissue, or antagonist-supported mechanism | Supports a bounded mechanism in the tested model |
 | E3 | Recombinant or heterologous functional receptor pharmacology | Supports compound–target function under the assay conditions |
 | E4 | Direct binding plus functional target evidence, with effect-specific validation | Supports only the measured effect and scope |
+
+*Abbreviations:* E0–E4, evidence ladder levels 0 through 4.
 
 The current manuscript reports E3/E4 compound-level evidence separately from
 effect-level support. No row meets the E4 definition for the promotional effect
@@ -132,11 +136,9 @@ reported to potentiate GABA-A-mediated synaptic responses in brain slices and
 to show flumazenil-sensitive effects in a mouse sleep model; the proposed
 benzodiazepine-site interaction was supported by molecular modeling rather
 than a direct biophysical binding assay [3]. Linalool enhanced GABA-A currents
-in recombinant systems [4] and altered respiratory-neuron activity in a rat
-brainstem preparation [11], while borneol modulated human recombinant
-α1β2γ2L GABA-A receptors [5] and produced bounded mouse hyperalgesia and
-anxiety-related phenotypes in separate studies [9,10]. These findings make
-sedation, anxiety, and nociception useful
+in recombinant systems [4], while borneol modulated human recombinant
+α1β2γ2L GABA-A receptors [5]. These findings make sedation, anxiety, and
+nociception useful
 follow-up domains, not established human effects.
 
 α-bisabolol supports two distinct lines of inquiry: direct inhibition of the
@@ -147,9 +149,11 @@ single mechanism without experiments that discriminate them.
 Myrcene and nerolidol are plausible TRPV1 leads from heterologous human-TRPV1
 expression experiments, not native human pain studies [7]. The related nanoparticle
 literature is formulation-specific and cannot be read as proof of free-terpene
-pharmacology [13]. Terpineol is a weaker CB1/CB2/D2 hypothesis because its current
+pharmacology. Terpineol is a weaker CB1/CB2/D2 hypothesis because its current
 support comes from mouse antagonist experiments and docking rather than direct
-receptor binding [8].
+receptor binding [8]. Separate mouse studies of borneol reported bounded
+hyperalgesia and anxiety-related phenotypes [9,10], and linalool altered
+respiratory-neuron activity in a rat brainstem preparation [11].
 
 ### 3.3 Unresolved and misleading target categories
 
@@ -159,6 +163,8 @@ Humulene has plausible immune and nociceptive target families but no resolved
 target in the present map. Caryophyllene oxide has a reported mouse sedative
 phenotype [12], while one study did not support a GABA-A potentiation mechanism;
 the target therefore remains unresolved.
+The formulation-specific nanoparticle evidence does not establish free-terpene
+pharmacology [13].
 
 Insect odorant-receptor findings for ocimene and caryophyllene oxide are valid
 sensory biology but are not evidence for human therapeutic receptor targets.
@@ -339,6 +345,12 @@ unresolved.
 The versioned public repository for the data products and build scripts is
 https://github.com/Terpedia/claims.
 
+Supporting Information Tables S1–S4 provide the machine-readable claims–terpene
+matrix, receptor hypothesis map, prioritized hypotheses-to-test table, and
+derived hypothesis register, respectively. These files are supplied with the
+submission and preserve row-level provenance; they are not independent claims
+of efficacy.
+
 - [Claims–terpene matrix](../data/claims-terpene-matrix.csv)
 - [Receptor hypothesis map](../data/receptor-hypothesis-map.csv)
 - [Hypothesis-register builder](../scripts/build_hypothesis_register.py)
@@ -354,16 +366,16 @@ evidence boundaries are retained in the linked machine-readable artifacts.
 
 ## 9. References
 
-1. Gertsch J et al. Beta-caryophyllene is a dietary cannabinoid. *Proceedings of the National Academy of Sciences*. 2008;105(26):9099–9104. [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/); doi:10.1073/pnas.0803601105.
-2. Klauke AL et al. The CB2-selective phytocannabinoid β-caryophyllene exerts analgesic effects in mouse models. *European Neuropsychopharmacology*. 2014;24(4):608–620. [PMID 24210682](https://pubmed.ncbi.nlm.nih.gov/24210682/); doi:10.1016/j.euroneuro.2013.10.008.
-3. Yang H et al. α-Pinene enhances non-rapid eye movement sleep in mice through GABA-A-benzodiazepine receptors. *Molecular Pharmacology*. 2016;90(5):530–539. [PMID 27573669](https://pubmed.ncbi.nlm.nih.gov/27573669/); doi:10.1124/mol.116.105080.
-4. Milanos S et al. Metabolic products of linalool and modulation of GABA-A receptors. *Frontiers in Chemistry*. 2017;5:46. [PMID 28680877](https://pubmed.ncbi.nlm.nih.gov/28680877/); doi:10.3389/fchem.2017.00046.
-5. Granger RE et al. (+)- and (−)-borneol: efficacious positive modulators of GABA action at human recombinant α1β2γ2L GABA-A receptors. *Biochemical Pharmacology*. 2005;69(7):1101–1111. [PMID 15763546](https://pubmed.ncbi.nlm.nih.gov/15763546/); doi:10.1016/j.bcp.2005.01.002.
+1. Gertsch J et al. Beta-caryophyllene is a dietary cannabinoid. *Proc Natl Acad Sci U S A*. 2008;105(26):9099–9104. [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/); doi:10.1073/pnas.0803601105.
+2. Klauke AL et al. The CB2-selective phytocannabinoid β-caryophyllene exerts analgesic effects in mouse models. *Eur Neuropsychopharmacol*. 2014;24(4):608–620. [PMID 24210682](https://pubmed.ncbi.nlm.nih.gov/24210682/); doi:10.1016/j.euroneuro.2013.10.008.
+3. Yang H et al. α-Pinene enhances non-rapid eye movement sleep in mice through GABA-A-benzodiazepine receptors. *Mol Pharmacol*. 2016;90(5):530–539. [PMID 27573669](https://pubmed.ncbi.nlm.nih.gov/27573669/); doi:10.1124/mol.116.105080.
+4. Milanos S et al. Metabolic products of linalool and modulation of GABA-A receptors. *Front Chem*. 2017;5:46. [PMID 28680877](https://pubmed.ncbi.nlm.nih.gov/28680877/); doi:10.3389/fchem.2017.00046.
+5. Granger RE et al. (+)- and (−)-borneol: efficacious positive modulators of GABA action at human recombinant α1β2γ2L GABA-A receptors. *Biochem Pharmacol*. 2005;69(7):1101–1111. [PMID 15763546](https://pubmed.ncbi.nlm.nih.gov/15763546/); doi:10.1016/j.bcp.2005.01.002.
 6. Nurulain S et al. Inhibitory actions of bisabolol on α7-nicotinic acetylcholine receptors. *Neuroscience*. 2015;306:91–99. [PMID 26283025](https://pubmed.ncbi.nlm.nih.gov/26283025/); doi:10.1016/j.neuroscience.2015.08.019.
-7. Jansen C et al. Myrcene and terpene regulation of TRPV1. *Channels*. 2019;13(1):344–366. [PMID 31446830](https://pubmed.ncbi.nlm.nih.gov/31446830/); doi:10.1080/19336950.2019.1654347.
+7. Jansen C et al. Myrcene and terpene regulation of TRPV1. *Channels (Austin)*. 2019;13(1):344–366. [PMID 31446830](https://pubmed.ncbi.nlm.nih.gov/31446830/); doi:10.1080/19336950.2019.1654347.
 8. Vieira G et al. Antidepressant-like effect of terpineol in an inflammatory model of depression. *Biomolecules*. 2020;10(5):792. [PMID 32443870](https://pubmed.ncbi.nlm.nih.gov/32443870/); doi:10.3390/biom10050792.
-9. Jiang J et al. (+)-Borneol alleviates mechanical hyperalgesia in mice. *European Journal of Pharmacology*. 2015;757:53–58. [PMID 25835611](https://pubmed.ncbi.nlm.nih.gov/25835611/); doi:10.1016/j.ejphar.2015.03.056.
-10. Cao B et al. (+)-Borneol suppresses conditioned fear recall and anxiety-like behaviors in mice. *Biochemical and Biophysical Research Communications*. 2018;495(2):1588–1593. [PMID 29223397](https://pubmed.ncbi.nlm.nih.gov/29223397/); doi:10.1016/j.bbrc.2017.12.025.
-11. Shibuya Y et al. Effects of linalool on respiratory neuron activity in a newborn-rat brainstem preparation. *Biomedical Research*. 2024;45(4):151–161. [PMID 39010191](https://pubmed.ncbi.nlm.nih.gov/39010191/); doi:10.2220/biomedres.45.151.
-12. Dougnon G, Ito M. Caryophyllene oxide induces sedative activity in mice. *Pharmaceuticals*. 2021;14(7):651. [PMID 34358077](https://pubmed.ncbi.nlm.nih.gov/34358077/); doi:10.3390/ph14070651.
-13. El-Hammadi MM et al. Nanoparticles enhance effects of cannabis-based terpenes on calcium influx in TRPV1-expressing cells. *International Journal of Pharmaceutics*. 2022;616:121524. [PMID 35104595](https://pubmed.ncbi.nlm.nih.gov/35104595/); doi:10.1016/j.ijpharm.2022.121524.
+9. Jiang J et al. (+)-Borneol alleviates mechanical hyperalgesia in mice. *Eur J Pharmacol*. 2015;757:53–58. [PMID 25835611](https://pubmed.ncbi.nlm.nih.gov/25835611/); doi:10.1016/j.ejphar.2015.03.056.
+10. Cao B et al. (+)-Borneol suppresses conditioned fear recall and anxiety-like behaviors in mice. *Biochem Biophys Res Commun*. 2018;495(2):1588–1593. [PMID 29223397](https://pubmed.ncbi.nlm.nih.gov/29223397/); doi:10.1016/j.bbrc.2017.12.025.
+11. Shibuya Y et al. Effects of linalool on respiratory neuron activity in a newborn-rat brainstem preparation. *Biomed Res*. 2024;45(4):151–161. [PMID 39010191](https://pubmed.ncbi.nlm.nih.gov/39010191/); doi:10.2220/biomedres.45.151.
+12. Dougnon G, Ito M. Caryophyllene oxide induces sedative activity in mice. *Pharmaceuticals (Basel)*. 2021;14(7):651. [PMID 34358077](https://pubmed.ncbi.nlm.nih.gov/34358077/); doi:10.3390/ph14070651.
+13. El-Hammadi MM et al. Nanoparticles enhance effects of cannabis-based terpenes on calcium influx in TRPV1-expressing cells. *Int J Pharm*. 2022;616:121524. [PMID 35104595](https://pubmed.ncbi.nlm.nih.gov/35104595/); doi:10.1016/j.ijpharm.2022.121524.

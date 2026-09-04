@@ -12,6 +12,7 @@ data, not claims of efficacy; retain their provenance and evidence boundaries.
 | Supporting data | [`../../data/receptor-hypothesis-map.csv`](../../data/receptor-hypothesis-map.csv) | Compound–receptor hypothesis map |
 | Supporting data | [`../../data/hypotheses-to-test.csv`](../../data/hypotheses-to-test.csv) | 14-row prioritized experimental plan |
 | Supporting data | [`../../data/hypothesis-register.csv`](../../data/hypothesis-register.csv) | Derived hypothesis register |
+| Supporting information | [`supporting-information.md`](supporting-information.md) | Legends and descriptions for Supporting Information Tables S1–S4 |
 
 The Markdown source is [`../terpene-structure-function-claims.md`](../terpene-structure-function-claims.md)
 and remains the version-controlled source of truth.

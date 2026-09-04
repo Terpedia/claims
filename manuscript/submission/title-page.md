@@ -2,7 +2,7 @@
 
 ## Terpene effect claims: an evidence-bounded receptor hypothesis map
 
-**Article type:** Perspective
+**Article type:** Review article (evidence-based pharmacological perspective)
 
 **Authors:** Daniel C. McShan
 
@@ -14,11 +14,39 @@
 
 **Running title:** Terpene receptor hypotheses
 
-**Word count:** Approximately 2,601 words including headings and declarations;
+**Word count:** Approximately 2,727 words including headings and declarations;
 verify journal-specific counting at upload.
 
 **Tables and supporting data:** One machine-readable claims–terpene matrix and
 one prioritized hypotheses-to-test table are supplied as supporting data.
+
+## Running title page
+
+**Running title:** Terpene receptor hypotheses
+
+**Affiliation:** Terpedia, LLC
+
+**Corresponding author contact:** [NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
+
+**Text pages:** 11
+
+**Tables:** 1
+
+**Figures:** 0
+
+**References:** 13
+
+**Abstract words:** 153
+
+**Introduction words:** 118
+
+**Discussion words:** 1,009
+
+**Nonstandard abbreviations:** CB1, cannabinoid receptor type 1; CB2,
+cannabinoid receptor type 2; D2, dopamine D2 receptor; E0–E4, evidence ladder
+levels 0 through 4; GABA-A, gamma-aminobutyric acid type A receptor; nAChR,
+nicotinic acetylcholine receptor; TRPV1, transient receptor potential vanilloid
+1 channel.
 
 ## Required statements
 

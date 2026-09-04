@@ -2,7 +2,7 @@
 
 Dear Editors,
 
-Please consider our perspective, “Terpene effect claims: an evidence-bounded
+Please consider our review article, “Terpene effect claims: an evidence-bounded
 receptor hypothesis map,” for *Pharmacology Research & Perspectives*.
 
 Terpene effect tables frequently collapse chemical identity, protein
@@ -14,7 +14,7 @@ The work explicitly separates compound-level target pharmacology from
 effect-level support, preserves unresolved hypotheses, and provides a
 prioritized experimental plan with controls and interpretation boundaries.
 
-The perspective is intended to inform new pharmacological hypotheses and target
+The evidence-based pharmacological perspective is intended to inform new pharmacological hypotheses and target
 validation. Its principal conclusion is deliberately conservative: receptor
 evidence can prioritize experiments, but it does not establish a promotional
 effect without effect-specific, identity-resolved, exposure-relevant
@@ -29,8 +29,8 @@ submission materials.
 
 We believe the manuscript fits the journal’s interest in pharmacological
 hypotheses, mechanism of action, target identification, translational
-pharmacology, and replication-oriented work. Because the manuscript is an
-evidence-based perspective rather than a comprehensive systematic review, we
+pharmacology, and replication-oriented work. The manuscript is an evidence-based
+pharmacological perspective rather than a comprehensive systematic review; we
 would welcome the editors’ guidance if a different article classification is
 preferred.
 
