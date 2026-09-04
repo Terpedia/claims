@@ -176,18 +176,30 @@ The next release should: (1) attach every hypothesis to primary citations;
 (2) resolve exact structures and stereoisomers; (3) map receptor records to
 stable protein identifiers; (4) distinguish binding, functional, docking, and
 phenotype evidence; and (5) test the highest-priority compound–receptor pairs
-in identity-resolved assays with concentration–response measurements.
+in identity-resolved assays with concentration–response measurements. The
+prioritized plan below operationalizes those requirements.
 
 ### Prioritized test plan
 
 The machine-readable test plan is in
 [`data/hypotheses-to-test.csv`](../data/hypotheses-to-test.csv). It converts
-the literature leads into falsifiable experiments with critical controls and
-interpretation rules. The highest-priority tests are β-caryophyllene–CB2,
-α-pinene–GABA-A, linalool–GABA-A, borneol–GABA-A, α-bisabolol–α7 nAChR, and
-β-myrcene–TRPV1. The table also includes non-receptor antimicrobial and
-antioxidant tests, because not every promotional effect should be forced into
-a receptor mechanism.
+the literature leads into 14 falsifiable experiments with critical controls,
+primary endpoints, and interpretation rules. Six high-priority rows test
+β-caryophyllene–CB2, α-pinene–GABA-A, linalool–GABA-A, borneol–GABA-A,
+α-bisabolol–α7 nAChR, and β-myrcene–TRPV1. Medium-priority rows address
+α-bisabolol–GABA-A, nerolidol–TRPV1, terpineol–CB1/CB2/D2, limonene
+enantiomers, and non-receptor antimicrobial/antioxidant effects. Lower-priority
+rows address phytol receptor nominations and caryophyllene oxide target
+discovery. The final row defines the evidence package required before any
+promotional claim is promoted.
+
+The plan uses orthogonal controls wherever possible: receptor antagonists or
+knockout systems for mechanism, vehicle and positive controls for assay
+validity, stereoisomer comparisons for identity, locomotor controls for animal
+behavior, and concentration–response plus pharmacokinetic checks for exposure.
+A positive receptor result supports only the measured molecular or phenotypic
+endpoint; a null result narrows the hypothesis but does not prove biological
+absence.
 
 ## Conclusion
 
