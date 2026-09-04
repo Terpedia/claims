@@ -2,7 +2,8 @@
 
 This repository is a focused workspace for investigating the newly added
 Terpedia claims tables, especially whether compound-level claims can be
-associated with protein receptors.
+associated with protein receptors. Promotional rows are treated as hypotheses,
+not established effects.
 
 The central rule is: a claim-to-protein join is an evidence association, not
 proof of binding, activation, inhibition, physiological effect, or human
@@ -22,6 +23,24 @@ tables. Existing receptor-oriented tables include:
 
 The source snapshot that motivated the work is maintained at
 `../kb-source/sources/terpedia-google-sheet-claims-2026-06-26.csv`.
+
+## Hypothesis register
+
+Build a local register from the promotional matrix and the existing Terpedia
+receptor evidence map:
+
+```sh
+python3 scripts/build_hypothesis_register.py \
+  ../kb-source/sources/terpedia-google-sheet-claims-2026-06-26.csv \
+  ../absinthe/data/receptor-interactome.csv \
+  outputs/hypothesis-register.csv
+```
+
+The register deliberately reports two separate fields: `receptor_mechanism_status`
+asks whether the compound has any linked receptor evidence, while
+`effect_support_status` remains `unresolved` until the effect itself is
+supported by appropriately scoped literature or assay data. This prevents a
+receptor association from being promoted into an efficacy claim.
 
 ## First run
 
@@ -59,4 +78,3 @@ an identity bridge and carries an explicit evidence boundary into every row.
 - `outputs/claim-receptor-candidates.csv` — evidence-qualified candidate rows.
 - `outputs/claim-receptor-summary.csv` — counts by claim, compound, receptor,
   evidence type, and join status.
-
