@@ -29,7 +29,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [ ] Confirm the work is not submitted or under consideration elsewhere.
 - [x] Create a cover letter with article rationale and author responsibility; no reviewers are suggested.
 - [ ] Confirm permissions for any reproduced material.
-- [ ] Confirm the destination repository URL and persistent release/version.
+- [x] Confirm the destination repository URL: https://github.com/Terpedia/claims (main branch; release version to be tagged before publication).
 - [ ] Upload main text, title page, figures/tables, supporting information, and cover letter through Wiley Research Exchange.
 
 ## Scientific release gate

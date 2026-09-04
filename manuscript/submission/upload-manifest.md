@@ -16,6 +16,8 @@ data, not claims of efficacy; retain their provenance and evidence boundaries.
 The Markdown source is [`../terpene-structure-function-claims.md`](../terpene-structure-function-claims.md)
 and remains the version-controlled source of truth.
 
+Public repository: https://github.com/Terpedia/claims
+
 No figures are currently included. If the editorial system requires tables as
 separate files, upload the CSV artifacts as supporting tables and retain the
 column headers and accompanying repository README.

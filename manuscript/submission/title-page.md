@@ -30,7 +30,8 @@ reports no other conflicts of interest.
 
 **Data availability:** The source claims snapshot, derived hypothesis register,
 claims–terpene matrix, receptor hypothesis map, and hypotheses-to-test table
-are versioned in the Terpedia `claims` repository at [REPOSITORY URL TO ADD].
+are versioned in the public Terpedia `claims` repository at
+https://github.com/Terpedia/claims.
 
 **Ethics approval:** No new human or animal subjects were enrolled or exposed
 for this perspective; no ethics approval was required for the analysis

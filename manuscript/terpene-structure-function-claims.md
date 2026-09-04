@@ -336,6 +336,9 @@ unresolved.
 
 ## 7. Data and code
 
+The versioned public repository for the data products and build scripts is
+https://github.com/Terpedia/claims.
+
 - [Claims–terpene matrix](../data/claims-terpene-matrix.csv)
 - [Receptor hypothesis map](../data/receptor-hypothesis-map.csv)
 - [Hypothesis-register builder](../scripts/build_hypothesis_register.py)
