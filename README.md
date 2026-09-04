@@ -54,6 +54,11 @@ python3 scripts/build_claims_terpene_matrix.py \
 promotional hypothesis with receptor candidates, evidence tier, PubMed/DOI
 fields, effect-support status, and uncertainty boundary.
 
+The prioritized experimental plan is in
+[`data/hypotheses-to-test.csv`](data/hypotheses-to-test.csv). It specifies
+falsifiable tests, controls, endpoints, and what positive or null results would
+actually mean.
+
 ## First run
 
 ```sh

@@ -178,6 +178,17 @@ stable protein identifiers; (4) distinguish binding, functional, docking, and
 phenotype evidence; and (5) test the highest-priority compound–receptor pairs
 in identity-resolved assays with concentration–response measurements.
 
+### Prioritized test plan
+
+The machine-readable test plan is in
+[`data/hypotheses-to-test.csv`](../data/hypotheses-to-test.csv). It converts
+the literature leads into falsifiable experiments with critical controls and
+interpretation rules. The highest-priority tests are β-caryophyllene–CB2,
+α-pinene–GABA-A, linalool–GABA-A, borneol–GABA-A, α-bisabolol–α7 nAChR, and
+β-myrcene–TRPV1. The table also includes non-receptor antimicrobial and
+antioxidant tests, because not every promotional effect should be forced into
+a receptor mechanism.
+
 ## Conclusion
 
 Terpedia can support a useful receptor hypothesis map for promotional terpene
@@ -193,6 +204,7 @@ unresolved.
 - [Receptor hypothesis map](../data/receptor-hypothesis-map.csv)
 - [Hypothesis-register builder](../scripts/build_hypothesis_register.py)
 - [Matrix builder](../scripts/build_claims_terpene_matrix.py)
+- [Prioritized hypotheses-to-test table](../data/hypotheses-to-test.csv)
 
 ## Selected references
 
