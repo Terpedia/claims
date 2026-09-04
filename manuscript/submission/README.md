@@ -22,6 +22,10 @@ version control, and the generated Word artifact has been rendered and
 visually inspected for upload. Rebuild it with
 `python3 scripts/build_manuscript_docx.py` after any source edit.
 
+The upload-ready Word title page and cover letter are generated with
+`python3 scripts/build_submission_docs.py`; their Markdown counterparts remain
+the version-controlled source of truth.
+
 The four CSV artifacts are cited in the manuscript as Supporting Information
 Tables S1–S4; [`supporting-information.md`](supporting-information.md) supplies
 their upload legends and table descriptions.

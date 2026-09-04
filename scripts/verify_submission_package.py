@@ -27,7 +27,8 @@ def main() -> int:
     ]
     assert all(section in text for section in required_sections)
     for filename in (
-        "title-page.md", "cover-letter.md", "submission-checklist.md",
+        "title-page.md", "title-page.docx", "cover-letter.md", "cover-letter.docx",
+        "submission-checklist.md",
         "supporting-information.md", "upload-manifest.md",
         "terpene-structure-function-claims.docx",
     ):
