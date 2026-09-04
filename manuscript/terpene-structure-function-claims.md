@@ -2,6 +2,11 @@
 
 **Working manuscript — 4 September 2026**
 
+**Proposed article type:** Pharmacology Research & Perspectives perspective
+
+**Keywords:** terpenes; receptor pharmacology; evidence grading; structure–function
+hypotheses; translational pharmacology; reproducibility; claim auditing
+
 ## Abstract
 
 Promotional terpene tables often present biological effects as if they were
@@ -85,6 +90,21 @@ is “mechanistically relevant,” not “effect supported.” The unit of the 5
 and 14/109 summaries is a hypothesis row, so the same compound-level paper can
 appear in multiple effect rows and must not be interpreted as independent
 replication.
+
+We used the following non-exclusive evidence ladder when interpreting the
+matrix:
+
+| Level | Meaning | Permitted conclusion |
+| --- | --- | --- |
+| E0 | No compound-specific evidence in the current map | Target/effect remains unresolved |
+| E1 | Sensory, phenotype-only, docking, or network nomination | Prioritizes testing; does not establish a target |
+| E2 | Animal, tissue, or antagonist-supported mechanism | Supports a bounded mechanism in the tested model |
+| E3 | Recombinant or heterologous functional receptor pharmacology | Supports compound–target function under the assay conditions |
+| E4 | Direct binding plus functional target evidence, with effect-specific validation | Supports only the measured effect and scope |
+
+The current manuscript reports E3/E4 compound-level evidence separately from
+effect-level support. No row meets the E4 definition for the promotional effect
+itself.
 
 ## Results
 
@@ -217,6 +237,13 @@ unresolved.
 - [Hypothesis-register builder](../scripts/build_hypothesis_register.py)
 - [Matrix builder](../scripts/build_claims_terpene_matrix.py)
 - [Prioritized hypotheses-to-test table](../data/hypotheses-to-test.csv)
+
+## Declarations
+
+This perspective uses a Terpedia-curated promotional snapshot and a targeted
+literature map; it is not a systematic review or a clinical guideline. No
+clinical recommendation is made. Source provenance, identity decisions, and
+evidence boundaries are retained in the linked machine-readable artifacts.
 
 ## Selected references
 
