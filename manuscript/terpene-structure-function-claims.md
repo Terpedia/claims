@@ -1,4 +1,4 @@
-# Terpene structure–function claims: an evidence-bounded receptor hypothesis map
+# Terpene effect claims: an evidence-bounded receptor hypothesis map
 
 **Working manuscript — 4 September 2026**
 
@@ -6,14 +6,15 @@
 
 Promotional terpene tables often present biological effects as if they were
 properties of a compound. We reinterpreted one Terpedia promotional matrix as
-109 testable effect hypotheses spanning 17 explicitly named terpene identities,
+109 marked effect hypotheses spanning 16 compounds, drawn from 17 explicitly
+named terpene columns,
 then linked those hypotheses to a receptor-oriented literature map. The
 analysis preserves stereochemical labels, separates direct receptor
 pharmacology from animal mechanism studies and computational predictions, and
 does not treat missing database joins as evidence of inactivity. Fifty-nine
-hypotheses involved compounds with direct receptor-pharmacology evidence at
-the compound level, while 14 had only indirect mechanistic or computational
-support. Only seven hypotheses had an existing local Terpedia receptor-evidence
+hypothesis rows involved compounds with direct receptor-pharmacology evidence
+at the compound level, while 14 rows had only indirect mechanistic or
+computational support. Only seven hypothesis rows had an existing local Terpedia receptor-evidence
 link, all involving linalool and a GABA-A receptor complex. No promotional
 effect was classified as fully supported because the current evidence map does
 not yet provide effect-specific, identity-resolved validation for those rows.
@@ -44,17 +45,21 @@ We used the Terpedia Google Sheet snapshot dated 26 June 2026. Its matrix
 contains effect labels in rows, terpene labels in columns, source counts, and
 “x” marks indicating an association. We converted each marked cell into a
 unique hypothesis identified by a stable local ID. The resulting register has
-109 compound–effect hypotheses across 17 named compounds.
+109 marked compound–effect rows across 16 compounds. The source header contains
+17 named compounds, but l-limonene has no marked cells and therefore contributes
+no hypothesis row.
 
 ### Identity and evidence policy
 
 α-pinene, β-pinene, d-limonene, and l-limonene were retained as separate
 labels. A receptor association was accepted only as a literature lead when the
 source named the compound or a clearly defined stereoisomer. Receptor evidence
-was classified as: (i) direct binding or functional receptor pharmacology;
-(ii) mechanism-supported animal or tissue pharmacology without direct binding;
-(iii) computational or network-based nomination; (iv) sensory-only evidence;
-or (v) unresolved.
+was classified as: (i) direct binding and functional receptor pharmacology;
+(ii) functional receptor pharmacology in recombinant or heterologous systems
+without in-vivo validation; (iii) animal or tissue mechanism studies without
+direct binding; (iv) computational or network-based nomination; (v)
+phenotype-only evidence; (vi) sensory-only evidence; or (vii) unresolved.
+These tiers describe compound–target evidence, not support for the effect label.
 
 The evidence boundary for every row is: “receptor association does not
 establish efficacy, causality, dose–response, or human relevance.” Missing
@@ -66,15 +71,29 @@ than inactive.
 The local Terpedia evidence layer was checked against the receptor interactome
 and available protein/structure projections. A local receptor-evidence link
 means that a compound–protein association exists in the current Terpedia
-evidence set; it does not mean that the promotional effect is validated.
+evidence set; it does not mean that the promotional effect is validated. The
+literature pass was targeted and hypothesis-generating, not a registered
+systematic review, so absence from this map is not evidence of absence from
+PubMed or biology.
+
+### Support definitions
+
+We reserve “supported effect” for an identity-resolved study that measures the
+specific effect, identifies an appropriate biological context, and provides an
+evidence chain adequate to the scope of the claim. A receptor mechanism alone
+is “mechanistically relevant,” not “effect supported.” The unit of the 59/109
+and 14/109 summaries is a hypothesis row, so the same compound-level paper can
+appear in multiple effect rows and must not be interpreted as independent
+replication.
 
 ## Results
 
 ### Overall support profile
 
-Of the 109 hypotheses, 59 were attached to compounds with direct receptor
-pharmacology somewhere in the literature map, and 14 had indirect mechanistic
-or computational support. Seven had an existing local Terpedia receptor link.
+Of the 109 hypothesis rows, 59 were attached to compounds with direct receptor
+pharmacology somewhere in the literature map, and 14 rows had indirect
+mechanistic or computational support. Seven rows had an existing local
+Terpedia receptor link.
 All 109 retained an `effect_support_status` of `unresolved`, because the map
 does not yet connect each effect label to an identity-resolved, appropriately
 scoped assay or clinical outcome.
@@ -89,20 +108,23 @@ neuroprotective label in the promotional matrix.
 
 α-pinene, linalool, and borneol provide convergent GABA-A hypotheses, but with
 different identities, receptor contexts, and exposure questions. α-pinene was
-reported to modulate the GABA-A benzodiazepine receptor context in a sleep
-model; linalool enhanced GABA-A currents in recombinant systems; and borneol
-modulated human recombinant α1β2γ2L GABA-A receptors. These findings make
-sedation, anxiety, and nociception useful follow-up domains, not established
-human effects.
+reported to potentiate GABA-A-mediated synaptic responses in brain slices and
+to show flumazenil-sensitive effects in a mouse sleep model; the proposed
+benzodiazepine-site interaction was supported by molecular modeling rather
+than a direct biophysical binding assay. Linalool enhanced GABA-A currents in
+recombinant systems, and borneol modulated human recombinant α1β2γ2L GABA-A
+receptors. These findings make sedation, anxiety, and nociception useful
+follow-up domains, not established human effects.
 
 α-bisabolol supports two distinct lines of inquiry: direct inhibition of the
 α7 nicotinic acetylcholine receptor and antagonist-sensitive behavioral
 evidence implicating GABA-A signaling. These should not be merged into a
 single mechanism without experiments that discriminate them.
 
-Myrcene and nerolidol are plausible TRPV1 leads from inducible human-cell
-experiments. However, the related nanoparticle literature is formulation-
-specific and cannot be read as proof of free-terpene pharmacology. Terpineol
+Myrcene and nerolidol are plausible TRPV1 leads from heterologous human-TRPV1
+expression experiments, not native human pain studies. The related nanoparticle
+literature is formulation-specific and cannot be read as proof of free-terpene
+pharmacology. Terpineol
 is a weaker CB1/CB2/D2 hypothesis because its current support comes from mouse
 antagonist experiments and docking rather than direct receptor binding.
 
@@ -123,13 +145,17 @@ signal, not a demonstrated interaction.
 ## Discussion
 
 The matrix shows why “how many claims are supported?” has more than one answer.
-At the receptor-mechanism level, 59 hypotheses have direct compound-level
-pharmacology and 14 have weaker mechanistic leads. At the strict promotional
-effect level, none is yet fully supported in this dataset. The difference is
+At the receptor-mechanism level, 59 hypothesis rows inherit direct
+compound-level pharmacology and 14 inherit weaker mechanistic leads. At the
+strict promotional-effect level, none is yet fully supported in this dataset.
+The difference is
 not a failure of receptor biology; it is a consequence of preserving the
 logical steps between molecular interaction and phenotype.
 
-Structure–function analysis should therefore proceed as a staged graph:
+The present study is not a quantitative structure–activity relationship
+analysis: it does not calculate descriptors, cluster scaffolds, or estimate
+structure-dependent potency. Its contribution is an identity-safe evidence
+architecture. Follow-up structure–function analysis should proceed as a staged graph:
 identity → structure → protein target → receptor function → tissue or animal
 phenotype → exposure-relevant effect. Each edge needs its own source, assay
 context, species, concentration, stereochemical scope, and uncertainty label.
@@ -178,4 +204,3 @@ unresolved.
 6. α-bisabolol inhibition of α7 nicotinic receptors: [PMID 26283025](https://pubmed.ncbi.nlm.nih.gov/26283025/).
 7. Myrcene and nerolidol regulation of TRPV1: [PMID 31446830](https://pubmed.ncbi.nlm.nih.gov/31446830/).
 8. Terpineol cannabinoid/dopamine mechanism study: [PMID 32443870](https://pubmed.ncbi.nlm.nih.gov/32443870/).
-
