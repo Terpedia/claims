@@ -15,3 +15,8 @@ Before submission, complete every unchecked item in
 identity, affiliation, contact details, funding, conflict-of-interest, CRediT,
 repository URL, and final all-author approval. Reusable supplied author
 metadata is recorded in [`../../author-profile.md`](../../author-profile.md).
+
+The proposed upload set is itemized in
+[`upload-manifest.md`](upload-manifest.md). The manuscript is Markdown for
+version control; convert it to the journal’s accepted word-processing format
+at upload while preserving the numbered references and declarations.

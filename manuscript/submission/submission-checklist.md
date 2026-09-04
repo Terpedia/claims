@@ -6,10 +6,10 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 
 - [x] Title is informative and avoids unexplained abbreviations.
 - [x] Abstract, keywords, introduction, methods, results, discussion, and conclusion are present.
-- [x] Main text is approximately 2,575 words, within the stated review range of 2,500–5,000 words.
+- [x] Main text is 2,601 words, within the stated review range of 2,500–5,000 words.
 - [x] References are consistent and linked to PubMed records.
 - [x] Supporting data and code are linked.
-- [ ] Final figures/tables and legends are prepared as separate upload files if requested.
+- [x] No figures are included; the machine-readable tables are listed in the upload manifest.
 
 ## Title page and declarations
 
@@ -26,7 +26,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 
 - [ ] Obtain all-author approval of the final manuscript.
 - [ ] Confirm the work is not submitted or under consideration elsewhere.
-- [ ] Create a cover letter with article rationale, author responsibility, and suggested reviewers if desired.
+- [x] Create a cover letter with article rationale and author responsibility; no reviewers are suggested.
 - [ ] Confirm permissions for any reproduced material.
 - [ ] Confirm the destination repository URL and persistent release/version.
 - [ ] Upload main text, title page, figures/tables, supporting information, and cover letter through Wiley Research Exchange.
