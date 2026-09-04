@@ -364,6 +364,12 @@ literature map; it is not a systematic review or a clinical guideline. No
 clinical recommendation is made. Source provenance, identity decisions, and
 evidence boundaries are retained in the linked machine-readable artifacts.
 
+### 8.1 Acknowledgements
+
+The authors thank the Terpedia project contributors and maintainers of the
+source databases and public literature services used in this work. No specific
+funding was received for this work.
+
 ## 9. References
 
 1. Gertsch J et al. Beta-caryophyllene is a dietary cannabinoid. *Proc Natl Acad Sci U S A*. 2008;105(26):9099–9104. [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/); doi:10.1073/pnas.0803601105.

@@ -14,7 +14,7 @@
 
 **Running title:** Terpene receptor hypotheses
 
-**Word count:** Approximately 2,727 words including headings and declarations;
+**Word count:** Approximately 2,759 words including headings and declarations;
 verify journal-specific counting at upload.
 
 **Tables and supporting data:** Supporting Information Tables S1–S4 are supplied
