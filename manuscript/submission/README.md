@@ -18,5 +18,6 @@ metadata is recorded in [`../../author-profile.md`](../../author-profile.md).
 
 The proposed upload set is itemized in
 [`upload-manifest.md`](upload-manifest.md). The manuscript is Markdown for
-version control; convert it to the journal’s accepted word-processing format
-at upload while preserving the numbered references and declarations.
+version control, and the generated Word artifact has been rendered and
+visually inspected for upload. Rebuild it with
+`python3 scripts/build_manuscript_docx.py` after any source edit.
