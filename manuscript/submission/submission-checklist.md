@@ -16,18 +16,20 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 ## Title page and declarations
 
 - [x] Replace author and affiliation placeholders.
-- [ ] Add corresponding-author postal address, telephone, and institutional email; ORCID added.
+- [ ] Add corresponding-author telephone; postal address and institutional email added.
+- [ ] Add Susan Trapp’s affiliation, email, postal address, and ORCID.
 - [x] Complete funding statement.
-- [x] Complete conflict-of-interest disclosure.
+- [ ] Confirm Susan Trapp’s competing interests; Daniel’s disclosure is complete.
 - [x] Add data availability statement.
 - [x] Add ethics and patient-consent statements as not applicable.
 - [x] Add permissions and clinical-trial statements as not applicable.
-- [x] Complete CRediT author contributions.
+- [ ] Confirm CRediT roles for both authors.
+- [x] Add acknowledgements; author-specific confirmations remain flagged as [TO CONFIRM].
 
 ## Editorial package
 
-- [ ] Obtain all-author approval of the final manuscript.
-- [ ] Confirm the work is not submitted or under consideration elsewhere.
+- [ ] Obtain all-author approval of the final manuscript [TO CONFIRM].
+- [ ] Confirm the work is not submitted or under consideration elsewhere [TO CONFIRM].
 - [x] Create a cover letter with article rationale and author responsibility; no reviewers are suggested.
 - [x] Confirmed that no previously published figures or tables are reproduced; no permissions are required.
 - [x] Confirm the destination repository URL: https://github.com/Terpedia/claims (main branch; release version to be tagged before publication).

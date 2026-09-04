@@ -4,13 +4,13 @@
 
 **Article type:** Perspective article (evidence-based pharmacological perspective)
 
-**Authors:** Daniel C. McShan
+**Authors:** Daniel C. McShan and Susan Trapp
 
-**Affiliations:** Terpedia, LLC
+**Affiliations:** Daniel C. McShan, Terpedia, LLC; Susan Trapp, [AFFILIATION TO CONFIRM]
 
-**Corresponding author:** Daniel C. McShan — [POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
+**Corresponding author:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone [TO CONFIRM]; dan@terpedia.com
 
-**ORCID:** [Daniel C. McShan](https://orcid.org/0000-0003-3880-1711)
+**ORCID:** [Daniel C. McShan](https://orcid.org/0000-0003-3880-1711); Susan Trapp, [ORCID TO CONFIRM]
 
 **Running title:** Terpene receptor hypotheses
 
@@ -26,7 +26,7 @@ as editable, machine-readable CSV files with legends in the submission package.
 
 **Affiliation:** Terpedia, LLC
 
-**Corresponding author contact:** Daniel C. McShan — [POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL]
+**Corresponding author contact:** Daniel C. McShan — 21085 Capella Dr, Monument, CO 80132; telephone [TO CONFIRM]; dan@terpedia.com
 
 **Text pages:** 11
 
@@ -53,8 +53,8 @@ nicotinic acetylcholine receptor; TRPV1, transient receptor potential vanilloid
 **Funding:** No specific funding was received for this work.
 
 **Conflict of interest:** Daniel C. McShan is affiliated with Terpedia, LLC,
-which maintains the source database analyzed in this perspective. The author
-reports no other conflicts of interest.
+which maintains or supplies the analyzed data; Daniel reports no other
+conflicts. Susan Trapp, [COMPETING INTERESTS TO CONFIRM].
 
 **Data availability:** The source claims snapshot, derived hypothesis register,
 claims–terpene matrix, receptor hypothesis map, and hypotheses-to-test table
@@ -75,4 +75,9 @@ used as an analyzed data source.
 
 **Author contributions:** Daniel C. McShan: Conceptualization, data curation,
 formal analysis, investigation, methodology, software, visualization, writing—
-original draft, and writing—review and editing.
+original draft, and writing—review and editing. Susan Trapp: Conceptualization,
+investigation, and writing—review and editing [TO CONFIRM BY BOTH AUTHORS].
+
+**Acknowledgements:** The authors thank the Terpedia project contributors and
+maintainers of the source databases and public literature services used in this
+work.

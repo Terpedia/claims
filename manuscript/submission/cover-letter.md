@@ -22,10 +22,10 @@ validation. The manuscript is supported by versioned machine-readable data and
 code, including a 109-row claims–terpene matrix and a 14-row experimental test
 plan.
 
-This submission is original, has not been published or submitted elsewhere,
-and is approved by all authors. All authors agree to take responsibility for
-the work and to disclose any relevant conflicts and funding in the final
-submission materials.
+This submission is original and has not been published or submitted elsewhere
+[TO CONFIRM]. All authors approve the final manuscript and agree to take
+responsibility for the work [TO CONFIRM]. Relevant conflicts and funding are
+disclosed in the submission materials.
 
 We believe the manuscript fits the journal’s interest in pharmacological
 hypotheses, mechanism of action, target identification, translational
@@ -38,4 +38,7 @@ Sincerely,
 
 Daniel C. McShan
 Terpedia, LLC
-[INSTITUTIONAL EMAIL]
+dan@terpedia.com
+
+Susan Trapp’s affiliation, contact information, ORCID, competing interests,
+and final contribution confirmation remain [TO CONFIRM].

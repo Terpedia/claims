@@ -55,7 +55,8 @@ def main() -> int:
     placeholder_pattern = re.compile(
         r"\[(?:POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
         r"NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
-        r"REPOSITORY URL TO ADD|INSTITUTIONAL EMAIL)\]"
+        r"REPOSITORY URL TO ADD|INSTITUTIONAL EMAIL|"
+        r"[^\]]*TO CONFIRM[^\]]*)\]"
     )
     placeholders = []
     for filename in ("title-page.md", "cover-letter.md"):
