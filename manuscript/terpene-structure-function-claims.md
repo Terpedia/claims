@@ -2,7 +2,7 @@
 
 **Working manuscript — 4 September 2026**
 
-**Proposed article type:** Review article (evidence-based pharmacological perspective)
+**Proposed article type:** Perspective article (evidence-based pharmacological perspective)
 
 **Keywords:** terpenes; receptor pharmacology; evidence grading; structure–function
 hypotheses; translational pharmacology; reproducibility; claim auditing

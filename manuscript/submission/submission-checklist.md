@@ -29,7 +29,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [ ] Obtain all-author approval of the final manuscript.
 - [ ] Confirm the work is not submitted or under consideration elsewhere.
 - [x] Create a cover letter with article rationale and author responsibility; no reviewers are suggested.
-- [ ] Confirm permissions for any reproduced material.
+- [x] Confirmed that no previously published figures or tables are reproduced; no permissions are required.
 - [x] Confirm the destination repository URL: https://github.com/Terpedia/claims (main branch; release version to be tagged before publication).
 - [ ] Upload main text, title page, figures/tables, Supporting Information Tables S1–S4, and cover letter through Wiley Research Exchange.
 
@@ -40,7 +40,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [x] α-pinene and TRPV1 evidence are explicitly qualified.
 - [x] Null database joins are not interpreted as biological absence.
 - [x] Prioritized hypotheses include controls, endpoints, and interpretation boundaries.
-- [ ] Complete a systematic literature update if submitting as a full review rather than a perspective.
+- [x] Proposed classification is an evidence-based pharmacological perspective; the targeted literature pass is explicitly disclosed rather than presented as a systematic review.
 
 ## Automated verification
 

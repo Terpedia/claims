@@ -132,7 +132,7 @@ def build() -> None:
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.add_run("Terpene effect claims: an evidence-bounded receptor hypothesis map")
     for value in (
-        "Review article | evidence-based pharmacological perspective",
+        "Perspective article | evidence-based pharmacological perspective",
         "Daniel C. McShan",
         "Terpedia, LLC",
         "ORCID: 0000-0003-3880-1711",

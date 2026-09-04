@@ -2,7 +2,7 @@
 
 ## Terpene effect claims: an evidence-bounded receptor hypothesis map
 
-**Article type:** Review article (evidence-based pharmacological perspective)
+**Article type:** Perspective article (evidence-based pharmacological perspective)
 
 **Authors:** Daniel C. McShan
 
@@ -17,8 +17,8 @@
 **Word count:** Approximately 2,727 words including headings and declarations;
 verify journal-specific counting at upload.
 
-**Tables and supporting data:** One machine-readable claims–terpene matrix and
-one prioritized hypotheses-to-test table are supplied as supporting data.
+**Tables and supporting data:** Supporting Information Tables S1–S4 are supplied
+as editable, machine-readable CSV files with legends in the submission package.
 
 ## Running title page
 

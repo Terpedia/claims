@@ -2,7 +2,7 @@
 
 Dear Editors,
 
-Please consider our review article, “Terpene effect claims: an evidence-bounded
+Please consider our perspective article, “Terpene effect claims: an evidence-bounded
 receptor hypothesis map,” for *Pharmacology Research & Perspectives*.
 
 Terpene effect tables frequently collapse chemical identity, protein
