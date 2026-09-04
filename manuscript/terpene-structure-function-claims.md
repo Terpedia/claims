@@ -269,6 +269,21 @@ A positive result in a recombinant system may establish receptor capability
 without showing that the compound reaches that receptor in vivo. These are not
 inconsistencies; they are different edges in the evidence graph.
 
+### Relevance to pharmacology practice
+
+This framework is intended for researchers, curators, and reviewers who must
+decide whether a broad natural-product statement is ready to become a testable
+pharmacological proposition. It makes the evidentiary bottleneck visible: the
+largest gap is often not finding a possible target, but connecting a chemically
+defined ligand to a reproducible endpoint under a plausible exposure. The
+resulting queue can guide assay selection, replication priorities, and the
+design of data systems that retain negative and unresolved results. In this
+respect, the contribution is methodological and translational rather than a
+claim that any one terpene is a therapeutic agent. It is aligned with a
+pharmacology perspective format because it uses existing observations to
+define new, falsifiable target and mechanism hypotheses while identifying the
+experiments required for validation.
+
 ## Limitations and next experiments
 
 The promotional source is a secondary matrix with uneven source counts and no
