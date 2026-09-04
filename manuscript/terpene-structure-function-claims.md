@@ -121,8 +121,8 @@ scoped assay or clinical outcome.
 ### 3.2 Stronger receptor-mechanism leads
 
 β-caryophyllene is the clearest immune and nociceptive lead. It has reported
-binding and functional agonism at CB2, and CB2-dependent analgesic effects have
-been reported in mouse models. These results support a testable CB2-mediated
+binding and functional agonism at CB2 [1], and CB2-dependent analgesic effects
+have been reported in mouse models [2]. These results support a testable CB2-mediated
 mechanism; they do not validate every anti-inflammatory, analgesic, or
 neuroprotective label in the promotional matrix.
 
@@ -131,22 +131,25 @@ different identities, receptor contexts, and exposure questions. α-pinene was
 reported to potentiate GABA-A-mediated synaptic responses in brain slices and
 to show flumazenil-sensitive effects in a mouse sleep model; the proposed
 benzodiazepine-site interaction was supported by molecular modeling rather
-than a direct biophysical binding assay. Linalool enhanced GABA-A currents in
-recombinant systems, and borneol modulated human recombinant α1β2γ2L GABA-A
-receptors. These findings make sedation, anxiety, and nociception useful
+than a direct biophysical binding assay [3]. Linalool enhanced GABA-A currents
+in recombinant systems [4] and altered respiratory-neuron activity in a rat
+brainstem preparation [11], while borneol modulated human recombinant
+α1β2γ2L GABA-A receptors [5] and produced bounded mouse hyperalgesia and
+anxiety-related phenotypes in separate studies [9,10]. These findings make
+sedation, anxiety, and nociception useful
 follow-up domains, not established human effects.
 
 α-bisabolol supports two distinct lines of inquiry: direct inhibition of the
-α7 nicotinic acetylcholine receptor and antagonist-sensitive behavioral
+α7 nicotinic acetylcholine receptor [6] and antagonist-sensitive behavioral
 evidence implicating GABA-A signaling. These should not be merged into a
 single mechanism without experiments that discriminate them.
 
 Myrcene and nerolidol are plausible TRPV1 leads from heterologous human-TRPV1
-expression experiments, not native human pain studies. The related nanoparticle
+expression experiments, not native human pain studies [7]. The related nanoparticle
 literature is formulation-specific and cannot be read as proof of free-terpene
-pharmacology. Terpineol
-is a weaker CB1/CB2/D2 hypothesis because its current support comes from mouse
-antagonist experiments and docking rather than direct receptor binding.
+pharmacology [13]. Terpineol is a weaker CB1/CB2/D2 hypothesis because its current
+support comes from mouse antagonist experiments and docking rather than direct
+receptor binding [8].
 
 ### 3.3 Unresolved and misleading target categories
 
@@ -154,7 +157,7 @@ Several compounds remain without compound-specific human receptor evidence in
 this first pass, including d-limonene, l-limonene, fenchol, and terpinolene.
 Humulene has plausible immune and nociceptive target families but no resolved
 target in the present map. Caryophyllene oxide has a reported mouse sedative
-phenotype, while one study did not support a GABA-A potentiation mechanism;
+phenotype [12], while one study did not support a GABA-A potentiation mechanism;
 the target therefore remains unresolved.
 
 Insect odorant-receptor findings for ocimene and caryophyllene oxide are valid

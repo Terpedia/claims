@@ -26,7 +26,7 @@ def main() -> int:
         "## 6. Conclusion", "## 7. Data and code", "## 8. Declarations", "## 9. References",
     ]
     assert all(section in text for section in required_sections)
-    for filename in ("title-page.md", "cover-letter.md", "submission-checklist.md"):
+    for filename in ("title-page.md", "cover-letter.md", "submission-checklist.md", "terpene-structure-function-claims.docx"):
         assert (SUBMISSION / filename).exists(), filename
     for filename in ("claims-terpene-matrix.csv", "receptor-hypothesis-map.csv", "hypotheses-to-test.csv", "hypothesis-register.csv"):
         assert (DATA / filename).exists(), filename

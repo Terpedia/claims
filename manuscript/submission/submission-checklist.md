@@ -7,6 +7,7 @@ Source checked: official PR&P author guidelines, 4 September 2026.
 - [x] Title is informative and avoids unexplained abbreviations.
 - [x] Abstract, keywords, introduction, methods, results, discussion, and conclusion are present.
 - [x] Main text is 2,601 words, within the stated review range of 2,500–5,000 words.
+- [x] Word manuscript artifact is generated and render-verified on letter-size pages.
 - [x] References are consistent and linked to PubMed records.
 - [x] Supporting data and code are linked.
 - [x] No figures are included; the machine-readable tables are listed in the upload manifest.
