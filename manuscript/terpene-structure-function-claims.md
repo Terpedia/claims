@@ -183,6 +183,92 @@ This structure also makes negative results interpretable: “no join found” ma
 reflect representation, release coverage, or identity mismatch rather than
 absence of activity.
 
+### A pharmacology-first interpretation framework
+
+The central unit of analysis is not the terpene name alone, but the
+compound–target–endpoint tuple. For example, “linalool is sedative” is too
+coarse to evaluate. A pharmacologically interpretable proposition would specify
+the linalool identity and stereochemical scope, the GABA-A receptor composition,
+the experimental preparation, the concentration range, the measured current or
+behavioral endpoint, and whether the exposure is achievable in the relevant
+organism. The same compound may have different actions at different
+concentrations, receptor subtypes, metabolites, or preparations.
+
+This tuple-based approach prevents two common errors. First, evidence for a
+target is not copied across unrelated endpoints. A linalool experiment that
+potentiates GABA-A current supports a receptor-function statement; it does not
+by itself support anxiolysis, anticonvulsant efficacy, analgesia, or clinical
+sedation. Second, evidence for one stereoisomer is not silently generalized to
+another. This is particularly important for pinene and limonene labels, for
+which the promotional source uses distinct names but does not consistently
+provide a complete stereochemical specification.
+
+### Evidence extraction and reproducibility
+
+Each literature record should be extracted into a row-level evidence object
+with at least the following fields: compound label as published; normalized
+identity; stereochemistry; target gene or stable protein identifier; species;
+cell or tissue preparation; assay type; concentration and units; exposure
+route; direction of effect; comparator; antagonist or genetic control; source
+identifier; and the authors’ stated limitation. A missing field is not silently
+filled from a different paper. Instead, it receives an unresolved status.
+
+The present map applies this principle at a first-pass level. It preserves
+PubMed identifiers and source URLs for the receptor leads, while the linked
+CSV matrix preserves the relationship between every promotional row and its
+compound-level evidence tier. The data products are intentionally more granular
+than the prose: readers can inspect the 109 rows, identify which rows inherit
+the same compound-level paper, and distinguish a direct receptor result from an
+animal antagonist experiment or an in-silico nomination.
+
+For a subsequent systematic update, two reviewers should independently screen
+title/abstract records and resolve disagreements before full-text extraction.
+Searches should be rerun by compound and effect using PubMed, Europe PMC, and
+the primary target or assay database where appropriate. The search date,
+complete query strings, deduplication procedure, exclusion reasons, and final
+included-record list should be versioned with the matrix. This would allow the
+map to move from a targeted perspective to a reproducible systematic evidence
+review without changing its conservative claim policy.
+
+### Translational pharmacology and exposure
+
+Receptor potency is necessary but not sufficient for translational plausibility.
+The relevant comparison is between the free concentration at the target site
+and the concentration producing the measured receptor effect, with attention to
+absorption, metabolism, protein binding, tissue distribution, and volatility.
+Plant or beverage composition data describe an administered matrix, not the
+unbound plasma or brain concentration of an isolated terpene. Likewise, a dose
+that produces a mouse behavioral effect cannot be compared directly with an
+in-vitro EC50 without considering route, bioavailability, species metabolism,
+and active metabolites.
+
+The experimental plan therefore prioritizes concentration–response curves,
+orthogonal receptor assays, antagonist or knockout controls, and basic
+pharmacokinetic measurements. For behavioral studies, locomotor and motor
+coordination controls are required so that apparent anxiolysis, sedation, or
+analgesia is not explained by nonspecific impairment. For inflammatory or
+antimicrobial claims, receptor assays should be supplemented by cell-based or
+microbial endpoints rather than assumed to be the causal route.
+
+### What would change a claim grade?
+
+A claim should move from unresolved to mechanistically relevant when a
+compound-specific effect is reproduced in an appropriate preparation and a
+selective pharmacological or genetic intervention changes the endpoint. It
+should move to direct target evidence when binding or validated functional
+receptor data establish the interaction under defined conditions. It should
+move to effect-supported only when the named promotional endpoint is measured
+with adequate controls, identity, dose–response, and context. Replication in a
+second preparation or laboratory should increase confidence, but should not
+erase limitations in exposure or clinical generalizability.
+
+This grading scheme also permits negative and mixed findings to be useful. A
+failed binding assay may demote a target while leaving a non-receptor mechanism
+open. Antagonist blockade may support a pathway without proving direct binding.
+A positive result in a recombinant system may establish receptor capability
+without showing that the compound reaches that receptor in vivo. These are not
+inconsistencies; they are different edges in the evidence graph.
+
 ## Limitations and next experiments
 
 The promotional source is a secondary matrix with uneven source counts and no
@@ -247,11 +333,16 @@ evidence boundaries are retained in the linked machine-readable artifacts.
 
 ## Selected references
 
-1. β-caryophyllene as a CB2 ligand and functional agonist: [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/).
-2. CB2-dependent β-caryophyllene analgesia in mice: [PMID 24210682](https://pubmed.ncbi.nlm.nih.gov/24210682/).
-3. α-pinene and GABA-A benzodiazepine-site modulation: [PMID 27573669](https://pubmed.ncbi.nlm.nih.gov/27573669/).
-4. Linalool and GABA-A receptor modulation: [PMID 28680877](https://pubmed.ncbi.nlm.nih.gov/28680877/).
-5. Borneol modulation of human recombinant GABA-A receptors: [PMID 15763546](https://pubmed.ncbi.nlm.nih.gov/15763546/).
-6. α-bisabolol inhibition of α7 nicotinic receptors: [PMID 26283025](https://pubmed.ncbi.nlm.nih.gov/26283025/).
-7. Myrcene and nerolidol regulation of TRPV1: [PMID 31446830](https://pubmed.ncbi.nlm.nih.gov/31446830/).
-8. Terpineol cannabinoid/dopamine mechanism study: [PMID 32443870](https://pubmed.ncbi.nlm.nih.gov/32443870/).
+1. Gertsch J et al. Beta-caryophyllene is a dietary cannabinoid. *Proceedings of the National Academy of Sciences*. 2008;105(26):9099–9104. [PMID 18574142](https://pubmed.ncbi.nlm.nih.gov/18574142/); doi:10.1073/pnas.0803601105.
+2. Klauke AL et al. The CB2-selective phytocannabinoid β-caryophyllene exerts analgesic effects in mouse models. *European Neuropsychopharmacology*. 2014;24(4):608–620. [PMID 24210682](https://pubmed.ncbi.nlm.nih.gov/24210682/); doi:10.1016/j.euroneuro.2013.10.008.
+3. Yang H et al. α-Pinene enhances non-rapid eye movement sleep in mice through GABA-A-benzodiazepine receptors. *Molecular Pharmacology*. 2016;90(5):530–539. [PMID 27573669](https://pubmed.ncbi.nlm.nih.gov/27573669/); doi:10.1124/mol.116.105080.
+4. Milanos S et al. Metabolic products of linalool and modulation of GABA-A receptors. *Frontiers in Chemistry*. 2017;5:46. [PMID 28680877](https://pubmed.ncbi.nlm.nih.gov/28680877/); doi:10.3389/fchem.2017.00046.
+5. Granger RE et al. (+)- and (−)-borneol: efficacious positive modulators of GABA action at human recombinant α1β2γ2L GABA-A receptors. *Biochemical Pharmacology*. 2005;69(7):1101–1111. [PMID 15763546](https://pubmed.ncbi.nlm.nih.gov/15763546/); doi:10.1016/j.bcp.2005.01.002.
+6. Nurulain S et al. Inhibitory actions of bisabolol on α7-nicotinic acetylcholine receptors. *Neuroscience*. 2015;306:91–99. [PMID 26283025](https://pubmed.ncbi.nlm.nih.gov/26283025/); doi:10.1016/j.neuroscience.2015.08.019.
+7. Jansen C et al. Myrcene and terpene regulation of TRPV1. *Channels*. 2019;13(1):344–366. [PMID 31446830](https://pubmed.ncbi.nlm.nih.gov/31446830/); doi:10.1080/19336950.2019.1654347.
+8. Vieira G et al. Antidepressant-like effect of terpineol in an inflammatory model of depression. *Biomolecules*. 2020;10(5):792. [PMID 32443870](https://pubmed.ncbi.nlm.nih.gov/32443870/); doi:10.3390/biom10050792.
+9. Jiang J et al. (+)-Borneol alleviates mechanical hyperalgesia in mice. *European Journal of Pharmacology*. 2015;757:53–58. [PMID 25835611](https://pubmed.ncbi.nlm.nih.gov/25835611/); doi:10.1016/j.ejphar.2015.03.056.
+10. Cao B et al. (+)-Borneol suppresses conditioned fear recall and anxiety-like behaviors in mice. *Biochemical and Biophysical Research Communications*. 2018;495(2):1588–1593. [PMID 29223397](https://pubmed.ncbi.nlm.nih.gov/29223397/); doi:10.1016/j.bbrc.2017.12.025.
+11. Shibuya Y et al. Effects of linalool on respiratory neuron activity in a newborn-rat brainstem preparation. *Biomedical Research*. 2024;45(4):151–161. [PMID 39010191](https://pubmed.ncbi.nlm.nih.gov/39010191/); doi:10.2220/biomedres.45.151.
+12. Dougnon G, Ito M. Caryophyllene oxide induces sedative activity in mice. *Pharmaceuticals*. 2021;14(7):651. [PMID 34358077](https://pubmed.ncbi.nlm.nih.gov/34358077/); doi:10.3390/ph14070651.
+13. El-Hammadi MM et al. Nanoparticles enhance effects of cannabis-based terpenes on calcium influx in TRPV1-expressing cells. *International Journal of Pharmaceutics*. 2022;616:121524. [PMID 35104595](https://pubmed.ncbi.nlm.nih.gov/35104595/); doi:10.1016/j.ijpharm.2022.121524.
