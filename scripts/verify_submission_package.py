@@ -53,7 +53,8 @@ def main() -> int:
     assert len(re.findall(r"(?m)^\d+\. ", reference_text)) == 13
     print(f"submission structure audit passed: {words} main-text words")
     placeholder_pattern = re.compile(
-        r"\[(?:NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
+        r"\[(?:POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
+        r"NAME, POSTAL ADDRESS, TELEPHONE, INSTITUTIONAL EMAIL|"
         r"REPOSITORY URL TO ADD|INSTITUTIONAL EMAIL)\]"
     )
     placeholders = []
