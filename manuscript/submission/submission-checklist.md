@@ -48,8 +48,11 @@ Run from the repository root:
 
 ```sh
 python3 scripts/verify_submission_package.py
+python3 scripts/verify_submission_package.py --strict
 ```
 
-This checks the review-range word count, numbered manuscript sections, and
-presence of the required package files. It intentionally does not approve
-author-specific placeholders.
+The first command checks the review-range word count, numbered manuscript
+sections, evidence-table invariants, citation order, and presence of the
+required package files. The strict command additionally requires the
+corresponding-author contact fields to be completed; it should be the final
+local gate before upload.
